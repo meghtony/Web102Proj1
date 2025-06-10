@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='[https://imgur.com/a/06MchBi](https://imgur.com/we9WV2u)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/we9WV2u' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Kap  
 
