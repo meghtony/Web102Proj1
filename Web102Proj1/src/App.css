@@ -1,0 +1,60 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #e3f0fc; /* Light blue background */
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  color: #155fa0; /* Strong, readable blue */
+}
+
+header p {
+  color: #2267b2; /* Slightly lighter blue for subtitle */
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2a6f97;
+}
+
+/* Remove the .card-image class if not used elsewhere */
+.card-image {
+  display: none;
+}
+
+.card p:last-child {
+  color: #155fa0; /* Darker blue for better visibility */
+  font-weight: 500;
+}
